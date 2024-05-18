@@ -1,0 +1,14 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore local development settings
+*.env
+
+# Ignore database files
+*.db
+*.sqlite3

@@ -1,0 +1,8 @@
+pydantic==2.7.1  # Core validation library, used by FastAPI
+sqlalchemy==2.0.30  # ORM, used by databases
+databases[asyncpg]==0.9.0  # Asynchronous database connection library
+alembic==1.13.1  # Database migrations tool, works with SQLAlchemy
+fastapi==0.111.0  # Web framework
+uvicorn==0.29.0  # ASGI server, used to run FastAPI
+mypy==1.10.0  # Type checker for Python
+ruff==0.4.4  # Linter for Python
